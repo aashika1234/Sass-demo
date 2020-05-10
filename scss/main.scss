@@ -1,0 +1,49 @@
+@import "./config.scss";
+body {
+  background: $primarycolor;
+  color: #fff;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+main {
+  height: 100%;
+  width: 100%;
+
+  .social-icons {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  a {
+  }
+  footer {
+    font-size: 1rem;
+    position: fixed;
+    right: 1rem;
+    text-align: right;
+    padding: 1rem;
+    color: #fff;
+    bottom: 0.4rem;
+    .social-icons {
+      position: fixed;
+      bottom: 1rem;
+      left: rem;
+    }
+  }
+}
